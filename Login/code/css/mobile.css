@@ -1,0 +1,83 @@
+@media (max-width: 800px) {
+    input, button {
+        outline: none !important;
+        border: none;
+      }
+      
+      button:hover {
+        cursor: pointer;
+      }
+      
+      /*
+        Utilitários
+      */
+      
+      .text1 {
+        font-family: Poppins-Regular;
+        font-size: 15px;
+        color: var(--text1);
+        line-height: 1.5;
+      } 
+      /*
+        Login
+      */
+      
+      .container {
+        width: 100%;
+      }
+      
+    .container-login {
+        width: 300px;
+        padding: 10px;
+        border-radius: 0 0 10px 10px;
+    }
+    
+    #overlay-not {
+      width: 100%;
+      height: 100%;
+    }
+
+    #center-not {
+        box-sizing: border-box;
+        position: absolute;
+        width: 550px;
+        height: 200px;
+        left: calc(50% - 550px/2);
+        top: calc(50% - 200px/2 - 0.5px);
+    }
+
+    #container-not {
+      position: absolute;
+      width: 250px;
+      height: 150px;
+      left: calc(50% - 250px/2);
+      top: calc(50% - 150px/2 - 0.5px);
+      
+      background: #890000;
+      border-radius: 25px;
+    }    
+    
+    #dialogContent-not {
+      position: absolute;
+      width: 250px;
+      height: 150px;
+      left: calc(50% - 250px/2);
+      top: calc(50% - 150px/2);
+    }
+      
+    #dialogContent-not p {
+      font-family: 'Monda';
+      font-weight: 400;
+      font-size: 60px;
+      display: flex;
+      text-transform: capitalize;
+      color: #FFFFFF;
+      text-align :center;
+      justify-content: center;
+    }
+    
+    #activate {
+  margin-top: 150px;
+}
+    
+}

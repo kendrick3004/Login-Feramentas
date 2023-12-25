@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+  <title>Login</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="shortcut icon" href="./code/img/login.png" type="image/png">
+  <link rel="stylesheet" href="./code/css/index.css">
+  <link rel="stylesheet" href="./code/css/mobile.css">
+  <link rel="stylesheet" href="./code/css/resut.css">
+
+
+</head>
+
+<body>
+<div id="overlay-not" style="display: none;">
+  <div id="center-not">
+  <div id="container-not">
+    <div id="dialogContent-not">
+      <p>Seu login ou senha estão incorreto.</p>
+    </div>
+    <div id="rejected"></div>
+  </div>
+  </div>
+</div>
+  <div class="container">
+    <span class="login-form-title">    
+<p style="font-size: 20px; display: flex; justify-content: center; align-items: center; padding: 0 20px;"> Servidor <br> Pd-103 </p>
+</span>
+
+    <div class="container-login">
+      <div class="wrap-login">
+        <form id="form1" class="login-form">
+
+          <div class="wrap-input margin-top-35 margin-bottom-35">
+            <input class="input-form" type="text" name="email" autocomplete="off" id="login">
+            <span class="focus-input-form" data-placeholder="Usuário"></span>
+          </div>
+
+          <div class="wrap-input margin-bottom-35">
+            <input class="input-form" type="password" name="password" autocomplete="off" id="senha">
+            <span class="focus-input-form" data-placeholder="Senha"></span>
+          </div>
+
+          <div>
+            <input type="file" style="display: flex;background-color: #f8f8f8;border: 1px solid #e5e5e5;padding: 5px;width: 200px;margin: auto;margin-top: -10px;">
+          </div>
+
+          <div id="activate" style="display: none;"></div>
+          <div class="container-login-form-btn alert">
+            <button class="login-form-btn" onclick="takeValue(); return false">
+              Login
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <script src="./code/js/index.js"></script>
+
+</body>
+</html>
